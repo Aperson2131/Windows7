@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Windows 7
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
+
