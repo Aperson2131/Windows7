@@ -125,10 +125,6 @@ class InstallGUI:
 			component_page = stack.get_child_by_name('page_customizations')
 			if not self.install_theme:
 				print('[THUNAR] Warning: GTK Theme not selected, cannot install Thunar status bar image')
-				thunar_check.set_tooltip_text("Warning: GTK Theme not selected, cannot install Thunar status bar image")
-				thunar_check.set_sensitive(False)
-				thunar_check.set_active(False)
-				self.thunar = False
 			else:
 				print(".")
 				
